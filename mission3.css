@@ -1,0 +1,120 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+
+
+
+input{outline: none;}
+button{outline: none;}
+.header{
+    background-color: #5fc0cd;
+    width: 100%;
+    position:relative;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    height: 20px;
+}
+.header_1{
+    width: 32px;
+    position: absolute;
+    left: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    top:10px;
+}
+.header_2{
+    width: 36px;
+    position: absolute;
+    
+    left: 50%;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.header_3{
+    width:32px;
+    position: absolute;
+    right:5px;
+    font-weight: bolder;
+    font-size: 15px;
+    top:10px;
+}
+.main{
+float: left;
+width: 100%;
+background-color:#eff0f4;
+color: #e1e5e7; 
+}
+.input1{
+    background-color:white;
+    float: left;
+    padding-top: 5px;
+    width: 100%;
+    margin-top: 12px;
+    padding-bottom:5px;
+}
+.input1 img{
+    width:21px;
+    float: left;
+    padding-right: 23px;
+    border-right: 1.2px solid #eaedee;
+    margin-left: 19px;
+}
+.number{
+    width: 60%;
+    float:left;
+    height: 31px;
+    
+    border:none;
+    margin-left: 22px;
+    position: absolute;
+}
+.input2{
+    background-color:white;
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+.input2 img{
+    width: 21px;
+    padding-right: 23px;
+    border-right: 1.2px solid #eaedee;
+    margin-left: 19px;
+    float: left;
+}
+.number2{
+    width: 60%;
+    float:left;
+    height: 31px;
+    border:none;
+    margin-left: 22px;
+    position: absolute;
+}
+.bottom{
+    float: left;
+    width: 100%;
+}
+.bottom input{
+    width: 100%;
+    background-color:#5fc0cd; 
+    color: white;
+    border: none;
+    height: 45px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.forget{
+    float: left;
+    text-align:right;
+    width: 100%;
+    color: #5fc0cd;
+}
+.forget_1{
+    text-decoration: underline;
+    margin-right: 20px;
+}
