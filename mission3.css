@@ -19,9 +19,8 @@ button{outline: none;}
 }
 .header_1{
     width: 32px;
-    position: absolute;
+    margin: auto;
     left: 5px;
-    font-weight: bolder;
     font-size: 15px;
     top:10px;
 }
@@ -37,7 +36,6 @@ button{outline: none;}
     width:32px;
     position: absolute;
     right:5px;
-    font-weight: bolder;
     font-size: 15px;
     top:10px;
 }
