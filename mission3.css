@@ -10,7 +10,6 @@ input{outline: none;}
 button{outline: none;}
 .header{
     background-color: #5fc0cd;
-    width: 100%;
     position:relative;
     color: white;
     padding-top: 6px;
@@ -19,15 +18,14 @@ button{outline: none;}
 }
 .header_1{
     width: 32px;
-    margin: auto;
     left: 5px;
     font-size: 15px;
     top:10px;
+    position: absolute;
 }
 .header_2{
     width: 36px;
-    position: absolute;
-    
+    margin: auto;
     left: 50%;
     font-weight: bolder;
     font-size: 18px;
