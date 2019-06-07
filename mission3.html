@@ -18,7 +18,7 @@
     <div class="main">
         <div class="input1">
            <img src="image/03.png">
-            <input class="number" type="text"    placeholder="请输入手机号">
+            <input class="number" type="text"    placeholder="请输入手机号" oninput = "value=value.replace(/[^\d]/g,'')">
         </div>
         <div class="input2">
         <img src="image/06.png">
@@ -29,6 +29,6 @@
         <input type="button" value="登  陆">
     </div>
     </form>
-    <div class="forget"><div class="forget_1">忘记密码</div></div>
+    <div class="forget"><a  href="#" class="forget_1">忘记密码</a></div>
 </body>
 </html>
